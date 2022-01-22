@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* This is a style rule that targets ALL elements. * is an asterisk wildcard selector, and means "all elements". 
+It is at the top of the page and is also a very generic style rule so it is easily overridden
+It removes all default margin, padding and border properties organic to various elements and as such allows for finer control over box-model measurements*/
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
 }
