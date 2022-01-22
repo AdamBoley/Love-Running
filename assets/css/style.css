@@ -58,5 +58,40 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.webp') no-repeat center center;
 
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*The animation properties link the #hero-image style rule to the @keyframes rule - the hero-zoom is common to both, set the duration of the "zoom" (see comment below)
+and the fill-mode property of forwards keeps the image "zoomed-in" - it stays at the end state*/
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+    /* overflow: hidden and clear: both do the same thing - reset the page after the float: left and float: right of the heading and navigation elements
+    But clear: both on its own expands the container size when the image "zooms-in". Overflow: hidden prevents this, and keeps the container to the same size - 
+    it hides the overflow caused by the zoom*/
+}
+
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+/*The Keyframes style rule is used to create animations. This particular rule creates a pseudo-zoom effect
+The image isn't actually zooming in, it's just being increased in size. However, the height and width of the image are fixed, so the image appears to be zooming in
+The image is "zooming-in" 10%*/
 
