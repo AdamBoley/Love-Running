@@ -79,6 +79,9 @@ and the fill-mode property of forwards keeps the image "zoomed-in" - it stays at
     /* overflow: hidden and clear: both do the same thing - reset the page after the float: left and float: right of the heading and navigation elements
     But clear: both on its own expands the container size when the image "zooms-in". Overflow: hidden prevents this, and keeps the container to the same size - 
     it hides the overflow caused by the zoom*/
+    position: relative;
+    /*Position: relative forces the child div box called #cover-text to be placed relative to the #hero-outer. This means it will fully lay over the background image
+    */
 }
 
 
@@ -95,3 +98,34 @@ and the fill-mode property of forwards keeps the image "zoomed-in" - it stays at
 The image isn't actually zooming in, it's just being increased in size. However, the height and width of the image are fixed, so the image appears to be zooming in
 The image is "zooming-in" 10%*/
 
+#cover-text-box, #cover-text-box h2 {
+    color: #fff;
+
+}
+
+#cover-text-box {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    /*This properties define the text placed in the box*/
+
+    width: 300px;
+    height: 200px;
+    /*This properties define the dimensions of the box*/
+
+    padding-top: 40px;
+    padding-left: 10px;
+    /*These properties define the padding of the box, so that the text sits more centrally*/
+    
+    background-color: rgba(241, 109, 107, 0.7);
+    /*The background color property uses rgba values here so that the opacity can be defined. This allows the hero-image to still be visible through the box. 
+    The colour is a subtle contrast - the box should sit over the man on the left's blue jacket, and the text has been made white*/
+
+    bottom: 30px;
+    right: 150px;
+    /*These properties set the position relative to the parent div. Since the parent div and the hero-image have the same dimensions, the text-box will overlay the image*/
+
+    position: absolute;
+    /*The positon: absolute allows the text-box to be positioned, since the parent section has been given position: absolute*/
+}
