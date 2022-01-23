@@ -311,4 +311,29 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+    #cover-text-box {
+        left: 0; /*Sticks text box to the left-side of the page*/
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .about-content {
+        width: inherit; /*Forces about-content divs to take up 90% of the screen width, as that is the width of the parent container*/
+    }
+
+    .about-content h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-content p {
+        text-align: center;
+        padding: 0 20px;
+        
+    }
 }
