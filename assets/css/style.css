@@ -205,7 +205,16 @@ hr {
 
 }
 
+#meetup-times-background-image {
+    background: url('../images/dublin-city.webp');
+    background-repeat: no-repeat; /*Forces no image repetition*/
+    background-size: cover; /*Forces image to expand to fill the width of the container*/
+    background-position: center; /*Centers image */
+    width: 100%; /*Defines width of container and height as well given aspect ratio*/
+    overflow: hidden; /*Hides overflow*/
+}
+
 .meetup-times {
-    display: inline-block;
     
+
 }
