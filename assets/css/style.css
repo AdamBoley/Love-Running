@@ -229,3 +229,9 @@ hr {
 .meetup-times h2 {
     color: #fafafa;
 }
+
+#social-media li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 20%;
+}
