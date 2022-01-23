@@ -302,6 +302,21 @@ footer {
         display: none; /*Hides the horizontal rule that underline the headings*/
     }
 
+    .about-content {
+        width: inherit; /*Forces about-content divs to take up 90% of the screen width, as that is the width of the parent container*/
+    }
+
+    .about-content h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-content p {
+        text-align: center;
+        padding: 0 20px;
+
+    }
+
     #meetup-times-background-image .meetup-times {
         width: 100%;
         clear: both;
