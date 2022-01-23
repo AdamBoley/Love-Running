@@ -141,7 +141,7 @@ The image is "zooming-in" 10%*/
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue
+    
 }
 
 #right-about {
@@ -155,4 +155,19 @@ The image is "zooming-in" 10%*/
     width: 33%;
     margin: 0 auto;
     background-color: green;
+}
+
+.left-about-content {
+    width: 60%;
+    float: right;
+    margin-bottom: 50px;
+    line-height: 20px;
+    clear: both;
+
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
 }
