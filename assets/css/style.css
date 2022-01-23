@@ -253,3 +253,18 @@ footer {
     color: #3a3a3a;
 
 }
+
+/*Gallery*/
+
+#photos {
+    clear: both; /*Displays photos below header*/
+    line-height: 0; /*Removes gaps between images*/
+    column-count: 4; /*Arranges images into 4 columns*/
+    column-gap: 0; /*Removes gaps between images*/
+
+}
+
+#photos > img {
+    width:  100%; /*Works in tandem with column-count to arrange images. Column count splist the section into 4 containers
+                    width: 100% forces each image to take up 100% of the width of its designated column*/
+}
