@@ -230,8 +230,15 @@ hr {
     color: #fafafa;
 }
 
+#social-media {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
 #social-media li {
     display: inline-block;
     list-style-type: none;
     margin-left: 20%;
+    font-size: 180%;
+
 }
