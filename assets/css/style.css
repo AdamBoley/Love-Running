@@ -214,7 +214,18 @@ hr {
     overflow: hidden; /*Hides overflow*/
 }
 
-.meetup-times {
-    
+#meetup-times-background-image .meetup-times {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6); /*applies a dark filter to the image, highlighting text*/
+    width: 20%;
+    height: 300px;
+    float: left; /*Used here, float forces the divs into a horizontal line*/
+    padding: 30px 0 0 10px; /*Centers text within the box*/
+    text-align: center;
+    border: 2px solid white; /*Adds borders to the divs, overlaying the image and breaking the image into 5 distinct boxes*/
+    box-sizing: border-box; /*Tells the browser to include borders in the width calculation, so the 20% width still works without overflowing onto the next line down*/
+}
 
+.meetup-times h2 {
+    color: #fafafa;
 }
