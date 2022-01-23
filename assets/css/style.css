@@ -148,7 +148,7 @@ The image is "zooming-in" 10%*/
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: red
+    
 }
 
 #center-about {
@@ -157,13 +157,24 @@ The image is "zooming-in" 10%*/
     background-color: green;
 }
 
-.left-about-content {
+.about-content {
     width: 60%;
-    float: right;
     margin-bottom: 50px;
     line-height: 20px;
     clear: both;
 
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.text-right {
+    text-align: right;
 }
 
 hr {
