@@ -23,7 +23,7 @@ h1, h2 {
     color: #252525;
 }
 
-#logo {
+.logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
@@ -236,16 +236,16 @@ footer {
     height: 150px;
 }
 
-#social-media {
+.social-media {
     text-align: center;/**/
 
 }
 
-#social-media > li {
+.social-media > li {
     display: inline;
 }
 
-#social-media i {
+.social-media i {
     /*margin-left: 20%;*/
     margin: 1%;
     padding: 5%;
