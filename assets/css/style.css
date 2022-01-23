@@ -230,15 +230,26 @@ hr {
     color: #fafafa;
 }
 
-#social-media {
-    margin-top: 50px;
-    margin-bottom: 30px;
+/*Footer*/
+
+footer {
+    height: 150px;
 }
 
-#social-media li {
-    display: inline-block;
-    list-style-type: none;
-    margin-left: 20%;
+#social-media {
+    text-align: center;/**/
+
+}
+
+#social-media > li {
+    display: inline;
+}
+
+#social-media i {
+    /*margin-left: 20%;*/
+    margin: 1%;
+    padding: 5%;
     font-size: 180%;
+    color: #3a3a3a;
 
 }
