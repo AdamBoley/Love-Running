@@ -302,3 +302,13 @@ footer {
         display: none; /*Hides the horizontal rule that underline the headings*/
     }
 }
+
+@media screen and (max-width: 950px) { /*Addresses smartphone users*/
+    #menu {
+        clear: left;
+        float: left; /*Forces navigation menu to under the Love Running logo*/
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
